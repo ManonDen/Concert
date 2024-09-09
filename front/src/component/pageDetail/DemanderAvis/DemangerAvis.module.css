@@ -1,0 +1,12 @@
+.notation{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+button{
+   width: 50%; 
+   background-color: #E8E1EF;
+   max-width: 200px;
+}
+

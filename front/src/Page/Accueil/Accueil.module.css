@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page {
+    font-family: Arial, sans-serif;
+    background-color:#6689A1 ;
+  }
+
+  .barreFiltre{
+    display: none;
+  }
+
+  /*version pc */
+@media screen and (min-width:1000px){
+  .page{
+    display: flex;
+    position: relative;
+    flex-grow: 4;
+
+  }
+  
+
+} 

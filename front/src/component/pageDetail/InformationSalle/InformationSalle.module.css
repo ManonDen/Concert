@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.info{
+    color: white;
+    font-size: 22px;
+
+}
+p{
+    text-align: center;
+    margin: 0;
+}

@@ -1,0 +1,25 @@
+{
+    "utilisateurs": [
+      {
+        "_id": "5fbb3b9ea6c7ee2a4c8cc4a2",
+        "email": "john.doe@example.com",
+        "password": "hashed_password_john"
+      },
+      {
+        "_id": "5fbb3b9ea6c7ee2a4c8cc4a3",
+        "email": "jane.doe@example.com",
+        "password": "hashed_password_jane"
+      },
+      {
+        "_id": "5fbb3b9ea6c7ee2a4c8cc4a4",
+        "email": "bob.smith@example.com",
+        "password": "hashed_password_bob"
+      },
+      {
+        "_id": "5fbb3b9ea6c7ee2a4c8cc4a5",
+        "email": "alice.jones@example.com",
+        "password": "hashed_password_alice"
+      }
+    ]
+  }
+  

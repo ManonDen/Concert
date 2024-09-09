@@ -1,0 +1,173 @@
+section {
+    margin: 3% 0% 0% 3%;
+    width: 100%;
+}
+
+.nom {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* version mobile */
+@media screen and (max-width:500px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    div .salles {
+        background-color: #D56062;
+        border-radius: 20px;
+        padding: 5%;
+        margin: 5% 0%;
+    }
+
+    p {
+        margin-left: 5%;
+
+    }
+
+    div .divCapacite {
+        padding-top: 1vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carreNoir {
+        background-color: black;
+        align-self: center;
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+    .capacite {
+        font-weight: 700;
+    }
+
+}
+
+
+/*version tablette */
+@media screen and (min-width:500px) {
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    div .salles {
+        width: 30vw;
+        height: 25vh;
+        background-color: #D56062;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0.5% 0.5%;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+
+    p {
+        text-align: center;
+
+    }
+
+    #nom {
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    div .divCapacite {
+
+        justify-content: center;
+        padding-top: 1vh;
+        display: flex;
+    }
+
+    .carreNoir {
+        background-color: black;
+        align-self: center;
+        width: 10px;
+        height: 10px;
+        margin-right: 5%;
+    }
+
+    .capacite {
+        font-weight: 700;
+    }
+
+}
+
+
+/*version pc */
+@media screen and (min-width:1000px) {
+
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        display: flex;
+        overflow-y: auto;
+        height: 70vh;
+        min-width: 150px;
+        margin-right: 50px;
+    }
+    main::-webkit-scrollbar {
+        width: 10px;
+        
+    }
+      
+    main::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #E8E1EF;
+    }
+
+    div .salles, .btnAdd {
+        width: 15vw;
+        height: 25vh;
+        background-color: #D56062;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0.5%;
+        border-radius: 5%;
+    }
+
+    p {
+        text-align: center;
+
+    }
+
+    .nom {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    div .divCapacite {
+
+        justify-content: center;
+        padding-top: 1vh;
+        display: flex;
+    }
+
+    .carreNoir {
+        background-color: black;
+        align-self: center;
+        width: 10px;
+        height: 10px;
+        margin-right: 5%;
+    }
+
+    .capacite {
+        font-weight: 700;
+    }
+
+    .filtreMenuDeroulant {
+        visibility: hidden;
+    }
+
+}

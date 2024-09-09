@@ -1,0 +1,35 @@
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+form {
+    border:solid black 1px;
+    box-shadow: 5px 3px 10px gray,inset 5px 3px 20px rgb(128, 125, 125);
+    margin: 2vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divForm{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+    gap: 1vh;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+}
+.inputForm{
+    border-radius: 20px;
+    height: 3vh;
+    padding: 10px;
+}
+.submit{
+    padding: 1vh;
+    border-radius: 15px;
+
+}

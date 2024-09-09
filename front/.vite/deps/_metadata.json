@@ -1,0 +1,76 @@
+{
+  "hash": "ce5dc713",
+  "configHash": "dd4d13d9",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "9403e80a",
+  "optimized": {
+    "dayjs": {
+      "src": "../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "409876d9",
+      "needsInterop": true
+    },
+    "dayjs/locale/fr": {
+      "src": "../../node_modules/dayjs/locale/fr.js",
+      "file": "dayjs_locale_fr.js",
+      "fileHash": "76673a2b",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "55a70f41",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "796d5852",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "4c798540",
+      "needsInterop": true
+    },
+    "react-leaflet": {
+      "src": "../../node_modules/react-leaflet/lib/index.js",
+      "file": "react-leaflet.js",
+      "fileHash": "54d06a15",
+      "needsInterop": false
+    },
+    "react-modal": {
+      "src": "../../node_modules/react-modal/lib/index.js",
+      "file": "react-modal.js",
+      "fileHash": "7bb76182",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "c5d6e598",
+      "needsInterop": false
+    },
+    "react-simple-star-rating": {
+      "src": "../../node_modules/react-simple-star-rating/dist/index.js",
+      "file": "react-simple-star-rating.js",
+      "fileHash": "4fe52d31",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-CCPUJRHH": {
+      "file": "chunk-CCPUJRHH.js"
+    },
+    "chunk-2RTH7GEI": {
+      "file": "chunk-2RTH7GEI.js"
+    },
+    "chunk-UM3JHGVO": {
+      "file": "chunk-UM3JHGVO.js"
+    },
+    "chunk-CEQRFMJQ": {
+      "file": "chunk-CEQRFMJQ.js"
+    }
+  }
+}
